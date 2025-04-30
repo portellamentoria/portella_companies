@@ -11,12 +11,12 @@ app.use(express.json());
 
 app.get("/", (req: Request, res: Response) => {
   res.json({
-    message: "Api está funcionando na porta " + PORT,
+    message: "Api está funcionando na porta ",
   });
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on port`);
 });
 
 connectDatabase();
