@@ -52,14 +52,6 @@ cd portella_companies
 # Instalar dependências
 npm install
 
-# Criar o arquivo .env na raiz com os dados:
-# APP_PORT=3003
-# DB_NAME=portella_db
-# DB_USER=root
-# DB_PASS=12345678
-# DB_HOST=localhost
-# DB_PORT=3306
-
 # Rodar o projeto
 npm run dev
 ```
