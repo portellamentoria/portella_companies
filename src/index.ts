@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.get("/", (req: Request, res: Response) => {
   res.json({
-    message: "Api está funcionando na porta " + PORT,
+    message: "API Health",
   });
 });
 
