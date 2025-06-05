@@ -10,7 +10,7 @@ export const sequelize = new Sequelize(
   {
     host: process.env.DB_HOST,
     port: Number(process.env.DB_PORT),
-    dialect: "mysql", // ou "postgres", "sqlite", etc.
+    dialect: "mysql",
     logging: false,
   }
 );
@@ -23,3 +23,4 @@ export const connectDatabase = async () => {
     console.error("Erro ao conectar com o banco de dados:", error);
   }
 };
+// para rodar a aplicação será no docker-compose up
