@@ -13,6 +13,10 @@ O projeto tem como foco:
 - Realizar entregas em **pequenas partes** (etapas incrementais)
 - Adotar boas práticas de versionamento, organização e conexão com o banco
 
+# Materiais auxiliares
+
+- [Diagrama de entidades do projeto](https://app.eraser.io/workspace/mh8wQhNiC2GqStwI1dR4)
+
 ---
 
 # Funcionalidades previstas
