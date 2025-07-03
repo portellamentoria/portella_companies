@@ -46,6 +46,9 @@ O projeto tem como foco:
 
 # Como rodar o projeto
 
+Pré-requisitos
+Node.js versão >= v22.14.0
+
 ```bash
 # Clonar o repositório
 git clone https://github.com/seu-usuario/portella_companies.git
