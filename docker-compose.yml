@@ -3,8 +3,8 @@ services:
     image: mysql:8.0
     container_name: mysql-portella-db
     environment:
-      MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: portella_db
+      MYSQL_ROOT_PASSWORD: $DB_PASS
+      MYSQL_DATABASE: "$DB_NAME"
     ports:
       - $DB_PORT:3306
     volumes:
