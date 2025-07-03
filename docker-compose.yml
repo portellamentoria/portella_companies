@@ -13,26 +13,6 @@ services:
       - app-network
     restart: always
 
-  portella-api:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: portella-api
-    environment:
-      DB_HOST: mysql-portella-db
-      DB_PORT: 3306
-      DB_USER: root
-      DB_PASS: rootpassword
-      DB_NAME: portella_db
-    ports:
-      - "3003:3003"
-    depends_on:
-      - mysql-portella-db
-    networks:
-      - app-network
-    restart: always
-    command: npm run dev
-
 networks:
   app-network:
     driver: bridge
