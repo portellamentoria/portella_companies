@@ -23,4 +23,3 @@ export const connectDatabase = async () => {
     console.error("Erro ao conectar com o banco de dados:", error);
   }
 };
-// para rodar a aplicação será no docker-compose up
